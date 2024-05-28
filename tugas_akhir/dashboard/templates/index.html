@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block title %}Dashboard{% endblock %}
+{% load static %}
+{% block content %}
+<div>
+    <main class="container">
+        <div class="bg-white p-2 rounded">
+            <h1>Welcome</h1>
+            <strong><p class="lead">Selamat Datang di Dashboard Data Kependudukan DKI Jakarta Bulan Januari 2019</p></strong>
+        </div>
+        <div class="text-center">
+            <img src="{% static 'data.png' %}" class="img-thumbnail" style="max-height: 60vh; border: 0px; box-shadow: none;">
+        </div>
+    </main>
+</div>
+{% endblock %}
